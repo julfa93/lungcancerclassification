@@ -90,22 +90,9 @@ To predict the class of a new lung X-ray image:
 1. Run the Jupyter notebook for predictions or use the command-line script to upload and classify images.
 2. Alternatively, use `src/utils.py` for a custom script that predicts an image.
 
-## Results
-
-- The ensemble model achieved an accuracy of **X%** on the validation set.
-- Confusion matrices and classification reports for each model are saved in the `logs/` directory.
-
-## Visualizing Training Progress
-
-To visualize the training and validation accuracy/loss, run TensorBoard:
-```bash
-tensorboard --logdir logs/
-```
-Then, open `localhost:6006` in your browser to view the graphs.
 
 ## Future Improvements
 
-1. **Data Augmentation**: Applying more aggressive data augmentation strategies.
-2. **Hyperparameter Tuning**: Fine-tuning learning rates, dropout rates, and optimizers for even better results.
-3. **Explainability**: Implementing techniques like Grad-CAM for better understanding of model predictions.
+1. Implementing techniques like Grad-CAM for better understanding of model predictions.
+2. Use more dataset 
 
