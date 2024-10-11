@@ -10,7 +10,7 @@ The models were trained on [The IQ-OTHNCCD lung cancer dataset](doi: 10.17632/bh
 
 ## Dataset
 
-The dataset used in this project is publicly available on Kaggle:
+The dataset used in this project is publicly available:
 
 - **Dataset Name**: The IQ-OTHNCCD lung cancer dataset
 - **Categories**: Benign, Malignant, Normal
